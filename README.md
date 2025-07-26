@@ -14,7 +14,7 @@ This is an API created with FastAPI that provides some functionality to the Chef
 
   ```sh
   git clone https://github.com/cdrice26/chefdeck-python-api.git
-  cd yourproject
+  cd chefdeck-python-api
   ```
 2. Create a virtual environment:
   ```sh
