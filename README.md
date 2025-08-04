@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is an API created with FastAPI that provides some functionality to the ChefDeck application, specifically fetching recipes from the web and merging ingredients into a grocery list. These tasks are well-suited to python and so were abstracted into a separate API.
+This is an API created with FastAPI that provides some functionality to the ChefDeck application, specifically parsing recipes from the web and merging ingredients into a grocery list. These tasks are well-suited to python and so were abstracted into a separate API.
 
 ## Requirements
 
