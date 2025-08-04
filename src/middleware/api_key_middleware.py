@@ -6,6 +6,7 @@ from starlette.middleware.base import BaseHTTPMiddleware, RequestResponseEndpoin
 class APIKeyMiddleware(BaseHTTPMiddleware):
     """
     Middleware to check the api key
+
     """
 
     PROTECTED_ROUTES = ["/parse-recipe", "/merge-ingredients"]
