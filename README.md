@@ -13,8 +13,8 @@ This is an API created with FastAPI that provides some functionality to the Chef
 1. Clone the repository:
 
   ```sh
-  git clone https://github.com/yourusername/yourproject.git
-  cd yourproject
+  git clone https://github.com/cdrice26/chefdeck-python-api.git
+  cd chefdeck-python-api
   ```
 2. Create a virtual environment:
   ```sh
