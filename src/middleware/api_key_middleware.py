@@ -7,6 +7,10 @@ class APIKeyMiddleware(BaseHTTPMiddleware):
     """
     Middleware to check the api key
 
+
+
+
+
     """
 
     PROTECTED_ROUTES = ["/parse-recipe", "/merge-ingredients"]
