@@ -8,9 +8,9 @@ from fastapi_simple_rate_limiter import rate_limiter  # type: ignore
 router = APIRouter()
 
 
-@router.get("/scrape-recipe")
+@router.get("/parse-recipe")
 @rate_limiter(limit=5, seconds=60)
-async def scrape_recipe(
+async def parse_recipe(
     url: Annotated[str, Query()], html: Annotated[str, Query()]
 ) -> Recipe:
     parser = RecipeParser(unquote(url), unquote(html))

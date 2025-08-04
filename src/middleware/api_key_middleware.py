@@ -8,7 +8,7 @@ class APIKeyMiddleware(BaseHTTPMiddleware):
     Middleware to check the api key
     """
 
-    PROTECTED_ROUTES = ["/scrape-recipe", "/merge-ingredients"]
+    PROTECTED_ROUTES = ["/parse-recipe", "/merge-ingredients"]
 
     async def dispatch(self, request: Request, call_next: RequestResponseEndpoint):
         if not any(request.url.path.startswith(path) for path in self.PROTECTED_ROUTES):
