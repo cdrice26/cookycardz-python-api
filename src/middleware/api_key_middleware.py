@@ -14,6 +14,11 @@ class APIKeyMiddleware(BaseHTTPMiddleware):
         if not any(request.url.path.startswith(path) for path in self.PROTECTED_ROUTES):
             return await call_next(request)
 
+        # If no API key is set, allow the request to proceed
+        # This is useful for local development or testing without an API key
+        if os.getenv("ALLOWED_API_KEY") is None:
+            return await call_next(request)
+
         api_key = request.headers.get("X-API-Key")
         if api_key != os.getenv("ALLOWED_API_KEY"):  # Replace with your actual API key
             raise HTTPException(status_code=403, detail="Forbidden: Invalid API Key")
