@@ -54,7 +54,7 @@ Make sure to have `pytest` installed in your environment.
 
 ## Disclaimer
 
-The web parsing feature is use at your own risk. While ChefDeck uses a recognized library for parsing web recipes and there exist other applications that allow you to do this, it is important to remember that you reamin responsible for verifying that you can legally save any recipe you wish to save.
+The web parsing feature is use at your own risk. While this API uses a recognized library for parsing web recipes and there exist other applications that allow you to do this, it is important to remember that you remain responsible for verifying that you can legally save any recipe you wish to save.
 
 ## License
 
