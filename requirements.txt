@@ -50,7 +50,7 @@ rdflib==7.1.4
 recipe_scrapers==15.8.0
 redis==5.3.1
 regex==2025.7.34
-requests==2.32.4
+requests==2.33.0
 rich==14.1.0
 rich-toolkit==0.14.9
 rignore==0.6.4
