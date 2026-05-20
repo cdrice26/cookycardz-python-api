@@ -38,7 +38,7 @@ platformdirs==4.3.8
 pluggy==1.6.0
 pydantic==2.11.7
 pydantic_core==2.33.2
-Pygments==2.19.2
+Pygments==2.20.0
 PyJWT==2.10.1
 pyparsing==3.2.3
 pyRdfa3==3.6.4
