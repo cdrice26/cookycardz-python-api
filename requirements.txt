@@ -31,7 +31,7 @@ markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 mdurl==0.1.2
 mf2py==2.0.1
-nltk==3.9.1
+nltk==3.9.4
 packaging==25.0
 Pint==0.24.4
 platformdirs==4.3.8
