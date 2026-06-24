@@ -1,5 +1,7 @@
 # ChefDeck Python API
 
+> WARNING: This API is deprecated and no longer used as its functionality was built into the main CookyCardz (formerly ChefDeck) application. It will be shut down in the coming months.
+
 ## Overview
 
 This is an API created with FastAPI that provides some functionality to the ChefDeck application, specifically parsing recipes from the web and merging ingredients into a grocery list. These tasks are well-suited to Python and so were abstracted into a separate API.
