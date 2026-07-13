@@ -1,6 +1,6 @@
 # CookyCardz Python API
 
-> WARNING: This API is deprecated and no longer used as its grocery list generation functionality was built into the main CookyCardz (formerly ChefDeck) application and the web parsing feature was removed from the main application quite some time ago due to concerns about scraping. This API will be shut down in the coming months.
+> WARNING: This API is deprecated and no longer used as its grocery list generation functionality was built into the main CookyCardz (formerly ChefDeck) application and the web parsing feature was removed from the main application quite some time ago due to concerns about scraping. It has been officially shut down.
 
 ## Overview
 
